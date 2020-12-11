@@ -1,16 +1,16 @@
 # This is the template code for the CNA337 Final Project
-# Mychael Huynh
+# Zachary Rubin, zrubin@rtc.edu
 # CNA 337 Fall 2020
-# Received help from Hasan
+# Hasan Hasan 11/24/2020
 
 from Server import Server
 def print_program_info():
 
-    print("Server Automator v0.1 by Mychael")
+    print("Server Automator v0.1 by Hasan")
 
 if __name__ == '__main__':
     print_program_info()
 
-    EC2server = Server('18.221.253.11')
+    EC2server = Server('18.191.53.207')
 
     print(EC2server.ping())
