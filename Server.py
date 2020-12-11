@@ -12,14 +12,14 @@ class Server:
 # This is the template code for the CNA337 Final Project
 # Zachary Rubin, zrubin@rtc.edu
 # CNA 337 Fall 2020
-# Hasan Hasan 12/08/2020
-# I got help from luma
+# Mychael Huynh 12/10/2020
+# Got help from Hasan
 
 import paramiko
 user_name = "ubuntu"
 passwd = ""
-ip = "18.191.53.207"
-Private_key = r"Private-Key-New-Export"
+ip = "18.216.116.156"
+Private_key = r"mychaelplswork"
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
